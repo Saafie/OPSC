@@ -11,4 +11,17 @@
     <string name="welcome_message">a fitness application that allows fitness tracking and friendly competition and interaction.</string>
     <string name="terms_privacy_policy">By signing up, you agree to Battles\n<font color="#5B95F9">Terms of Use</font> and <font color="#5B95F9">Privacy Policy</font></string>
     <string name="app_name">Battle Fitness</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="_28_09_2026">28-09-2026</string>
+    <string name="enter_surname">Enter Surname</string>
+    <string name="password">Password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username:</string>
+    <string name="birth_date">Birth Date:</string>
+    <string name="surname">Surname:</string>
+    <string name="password_display">Password:</string>
+    <string name="name">Name:</string>
+    <string name="email_sisplay">Email:</string>
 </resources>

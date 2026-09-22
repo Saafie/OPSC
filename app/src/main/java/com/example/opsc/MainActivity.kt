@@ -24,10 +24,11 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_main)
 
         val forgotPassword = findViewById<TextView>(R.id.textView4)
-
         val loginButtonNav =findViewById<Button>(R.id.loginbutton)
+        val signUpText = findViewById<TextView>(R.id.textView7)
          passwordInput = findViewById<EditText>(R.id.editTextTextPassword)
          emailInput = findViewById<EditText>(R.id.editTextTextEmailAddress)
+
 
         //Ensures the forgot password is underlined
         val rawText = getString(R.string.forgot_password)
@@ -42,6 +43,13 @@ class MainActivity : ComponentActivity() {
 
         }
 
+        //signUp link to signup section
+        signUpText.setOnClickListener {
+            val intent = Intent(this, signUpSection::class.java).apply{
+                putExtra("USER_EMAIL", emailInput.text.toString().trim())
+            }
+            startActivity(intent)
+        }
 
         //Logs in when the login button is pressed
         loginButtonNav.setOnClickListener {

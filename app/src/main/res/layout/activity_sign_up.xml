@@ -20,22 +20,22 @@
         app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/logincard" />
 
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="193dp"
-        android:layout_height="43dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:text="@string/signUp_link"
-        android:textAlignment="center"
+        android:textAlignment="gravity"
         android:textColor="@color/black"
-        android:textFontWeight="1000"
+        android:textStyle="bold"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.046" />
-
+        app:layout_constraintVertical_bias="0.045" />
 
     <TextView
         android:id="@+id/textWelcome"
@@ -44,7 +44,7 @@
         android:text="@string/logo_name"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textFontWeight="1000"
+        android:textStyle="bold"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,32 +55,30 @@
 
     <TextView
         android:id="@+id/textWelcomeMessage"
-        android:layout_width="439dp"
-        android:layout_height="105dp"
+        android:layout_width="318dp"
+        android:layout_height="90dp"
         android:text="@string/welcome_message"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/black"
-        android:textFontWeight="1000"
         android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textWelcome"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textWelcome" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="264dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:background="@drawable/border"
         android:drawableStart="@drawable/gmailbutton"
-        android:drawablePadding="16dp"
+        android:drawablePadding="36dp"
         android:gravity="start|center_vertical"
-        android:paddingStart="36dp"
         android:text="@string/login_with_google"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.0" />
@@ -118,12 +116,15 @@
     <EditText
         android:id="@+id/signUpEmailAddress"
         android:layout_width="265dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:background="@drawable/border"
         android:ems="10"
+        android:clickable="true"
+        android:focusable="true"
         android:hint="@string/email_hint"
         android:inputType="textEmailAddress"
         android:paddingStart="5dp"
+        android:paddingEnd="20dp"
         android:textColor="@color/black"
         android:textColorHint="@color/grey"
         android:textSize="16sp"
@@ -135,7 +136,7 @@
     <Button
         android:id="@+id/signUpbutton"
         android:layout_width="158dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:background="@drawable/loginbutton"
         android:text="@string/signupButton"
         app:cornerRadius="100dp"
@@ -152,8 +153,9 @@
         android:layout_height="35dp"
         android:text="@string/terms_privacy_policy"
         android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/black"
-        android:textSize="10sp"
+        android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/signUpbutton"
         app:layout_constraintHorizontal_bias="0.465"
