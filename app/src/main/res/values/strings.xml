@@ -1,0 +1,5 @@
+<resources>
+    <string name="password_hint">Enter Password</string>
+    <string name="email_hint">Example@gmail.com</string>
+    <string name="forgot_password">&lt;&gt;Forgot Password?&lt;&gt;</string>
+</resources>
