@@ -1,13 +1,18 @@
 Step 1
 Login into the app
+
 <img width="243" height="517" alt="image" src="https://github.com/user-attachments/assets/4c266391-ac78-4004-8e9a-dc7e190ceb5a" />
+
 You can either log in with your email and password or with google. Logging in with google will only be done in final poe
 At the bottom you will see it says if you dont have an account you can sign up. Forgot password also does not work right now.
+
 <img width="144" height="22" alt="image" src="https://github.com/user-attachments/assets/9fbd71e9-5a04-44d0-a1c3-773f92e731b2" />
+
 when you press on it, it will show you all details that need to be entered.
 
 Step 2
 You can either go back to log in or choose to login with google or choose to put ur email in.
+
 <img width="270" height="355" alt="image" src="https://github.com/user-attachments/assets/bc91cad1-11fb-40c0-96a9-c5bf6025cbf1" />
 
 it will not let u continue to sign up without an email entered, the signup with google also doesnt work yet
