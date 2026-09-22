@@ -11,7 +11,8 @@ adding workouts that can be completed
 Step 1
 Login into the app
 
-<img width="243" height="517" alt="image" src="https://github.com/user-attachments/assets/4c266391-ac78-4004-8e9a-dc7e190ceb5a" />
+<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/5510f8ae-0b27-432b-863e-50971fd04350" />
+
 
 You can either log in with your email and password or with google.
 At the bottom you will see it says if you dont have an account you can sign up. Forgot password also does not work right now.
