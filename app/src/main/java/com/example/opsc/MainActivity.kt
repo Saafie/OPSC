@@ -37,6 +37,13 @@ class MainActivity : ComponentActivity() {
         }
         forgotPassword.text = underlineSpannable
 
+        val signUpRawText = getString(R.string.signUp_link)
+        val signUpUnderlineSpannable = SpannableString(signUpRawText).apply{
+            setSpan(UnderlineSpan(),0,length,0)
+        }
+        signUpText.text = signUpUnderlineSpannable
+
+
         //when the forgot password is clicked
         forgotPassword.setOnClickListener {
             Toast.makeText(this, "Forgot Password Clicked", Toast.LENGTH_SHORT).show()

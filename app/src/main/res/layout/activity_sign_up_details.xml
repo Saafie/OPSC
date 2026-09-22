@@ -269,6 +269,7 @@
         android:layout_marginBottom="52dp"
         android:background="@drawable/loginbutton"
         android:text="@string/signupButton"
+        app:backgroundTint="@null"
         app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/textConfirmPassword"
@@ -282,6 +283,7 @@
         android:gravity="center"
         android:text="@string/terms_privacy_policy"
         android:textAlignment="center"
+
         android:textColor="@color/black"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
