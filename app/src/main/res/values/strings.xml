@@ -1,5 +1,14 @@
 <resources>
     <string name="password_hint">Enter Password</string>
     <string name="email_hint">Example@gmail.com</string>
-    <string name="forgot_password">&lt;&gt;Forgot Password?&lt;&gt;</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="signUp_link">Sign Up</string>
+    <string name="login_link">Login In</string>
+    <string name="login">Login</string>
+    <string name="signupButton">Sign Up</string>
+    <string name="logo_name">Welcome to Battle Fitness</string>
+    <string name="login_with_google">Login With Google</string>
+    <string name="welcome_message">a fitness application that allows fitness tracking and friendly competition and interaction.</string>
+    <string name="terms_privacy_policy">By signing up, you agree to Battles\n<font color="#5B95F9">Terms of Use</font> and <font color="#5B95F9">Privacy Policy</font></string>
+    <string name="app_name">Battle Fitness</string>
 </resources>
