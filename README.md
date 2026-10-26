@@ -1,68 +1,57 @@
-Important
-Logging in, signing up with google, forgot password, and avatar changes will only be done in Final POE
+# OPSC Mobile Application
 
-Features
-Game feature, where the leaderboard goes up with every completed workout
-the profile picture being changed
-the inspirational, using a rest api
-adding workouts that can be completed
+An Android application built with **Kotlin** and **XML / Jetpack UI components**, designed to provide secure user authentication, interactive dashboard navigation, and customizable settings management.
 
+This project was developed as part of practical software engineering coursework to demonstrate native Android activity lifecycles, user authentication workflows (including social login layouts), and structured mobile UI navigation.
 
-Step 1
-Login into the app
+---
 
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/5510f8ae-0b27-432b-863e-50971fd04350" />
+## 🚀 Key Features
+* **Secure Authentication Flows:** Complete login and registration screens (`MainActivity`, `signUpSection`, `signUpDetailsActivity`) with validation support.
+* **Interactive Home Dashboard:** Post-authentication landing interface (`HomeActivity`) for core app features and navigation.
+* **Customized User Settings:** Dedicated settings management screen (`SettingsActivity`) for user preferences.
+* **Custom UI & Styling:** Tailored gradients, custom buttons, borders, and responsive theme configurations (`Themes`, `Colors`, `Type`).
 
+---
 
-You can either log in with your email and password or with google.
-At the bottom you will see it says if you dont have an account you can sign up. Forgot password also does not work right now.
+## 🛠️ Technology Stack & Architecture
+* **Language:** Kotlin
+* **UI Framework:** Android XML Layouts, Material Components, View Binding
+* **Architecture / Components:** Activities (`MainActivity`, `HomeActivity`, `SettingsActivity`, `signUpDetailsActivity`), Intent-based navigation
+* **Build System:** Gradle with Kotlin DSL (`build.gradle.kts`)
+* **Version Control & CI:** GitHub Actions workflows configured for automated Android testing (`android-tests.yml`)
 
-<img width="144" height="22" alt="image" src="https://github.com/user-attachments/assets/9fbd71e9-5a04-44d0-a1c3-773f92e731b2" />
+---
 
-when you press on it, it will show you all details that need to be entered.
+## 📂 Project Structure
+```text
+OPSC/
+│
+├── .github/workflows/         # Automated Android testing CI pipelines
+├── app/src/main/
+│   ├── java/com/example/opsc/ # Core Activities (MainActivity, Home, Settings, Sign-up)
+│   └── res/                   # XML layouts, drawables, gradients, colors, and mipmaps
+├── build.gradle.kts           # Project build configurations (Kotlin DSL)
+└── settings.gradle.kts        # Gradle settings and repositories
+```
 
-Step 2
-You can either choose to login with google or choose to put ur email in.
+---
 
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/0d6f429e-8613-494e-abd7-376c34eca864" />
+## ⚙️ Setup & Local Installation
 
-it will not let u continue to sign up without an email entered
-the gmail entered will automatically be applied and everything will have to be entered if not entered it will show errors
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/ethan1ol/opsc.git
+   ```
+2. **Open in Android Studio:**
+   Launch Android Studio, select **Open**, and choose the cloned `OPSC` root directory.
+3. **Sync Gradle:**
+   Allow Android Studio to sync and download the required Gradle dependencies (`build.gradle.kts`).
+4. **Run the Application:**
+   Start an Android Emulator (API 24+) or connect a physical Android device, then click the **Run ('>')** button in Android Studio.
 
-after everything is entered it will allow you to go to the next part which would be the apps home screen.
+---
 
-app home screen
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/8c7687d1-01d5-4f1f-a317-e2ddcafb1053" />
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/436f0ffb-3910-48d2-a045-e57c946a6466" />
-
-Shows the clubs you inm suggests clubs to join, shows your personal routine and says an inspirational quote.
-
-Clubs Page
-
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/f5a3d00c-5310-4cde-a93e-b8f39d4b71ba" />
-shows a leaderboard and shows like icons and a podium to show whose the top 3 people in a certain club.
-it also shows how much points each person has. The page also shows upcoming features.
-
-Workouts
-
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/6c1aba79-4e11-40aa-955a-6d00bd93fd82" />
-
-Allows you to add workout logs and shows you them, it also updates the progress bar. 
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/dc6ba632-3a6f-478c-b4c6-4fa112030de9" />
-
-You added completed workouts here and the progress bar will increase, with every completed workout the leaderboard points go up.
-
-Profile settings
-
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/b5fd0a25-c6ce-4d43-9110-5b5c02f31217" />
-
-
-All information shown can be edited by pressing on the edit button and each will get updated after it is edited
-
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/cf49b252-ca37-4578-a2dd-5c9de6281191" />
-
-some features on profile does no work yet like changing avatar but everything else with an edit button world. Important stuff such
-as the password, etc will womt be shown unless rebealed is pressed to show the information
-
-Youtube Link
-https://youtube.com/shorts/taRYWcJRIyo?feature=share 
+## 🧪 Testing & CI
+* Includes local unit test configurations (`ExampleUnitTest.kt`).
+* Automated CI pipeline (`android-tests.yml`) set up via GitHub Actions to run tests on code pushes.
